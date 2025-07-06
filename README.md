@@ -1,3 +1,3 @@
 # Raguel-_Elevator-Mechanism
-FPGA Elevatator Mechanism Project (Quartus II, De10Lite board) 
-
+FPGA Elevatator Mechanism Project (Quartus II, De-10Lite board) 
+This project was developed for a Digital Logic Design course, where we used VHDL on Quartus. I designed a finite state machine (FSM) using Moore’s method to simulate elevator floor operations, starting from the ground floor and moving up to the seventh floor. The user could trigger an input on the board: when the floor switch was set to a specific floor and the button was pressed, the FSM would display both the direction and the current floor, transitioning from the initial state to the desired final state. An additional input was required to confirm the transition, ensuring accurate and controlled floor selection.
